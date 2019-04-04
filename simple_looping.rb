@@ -38,8 +38,8 @@ until counter == number_of_times
 end
 
 def for_iterator(number_of_times)
-  times = number_of_times 
- for number in count do
+  number_of_times = {Integer}
+ for number in times do
 phrase = "Welcome to Flatiron School's Web Development Course!"
 puts phrase
   end
